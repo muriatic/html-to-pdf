@@ -14,5 +14,8 @@ Converts HTMLs to PDF using iText7
 - ```-names``` (list of names separated by ';' (these are also the output and input file names))
 - ```-threads``` (number of threads you would like to use; default = 2)
 
+## Example (converting test.html to test.pdf using 2 threads):
+```html-to-pdf.exe -htmls "path/to/htmls" -pdfs "path/to/pdfs" -names "test"```
+
 ## Output:
 - PDF with "<name>.pdf" from "<name>.html"
