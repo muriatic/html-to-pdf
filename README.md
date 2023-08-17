@@ -19,3 +19,6 @@ Converts HTMLs to PDF using iText7
 
 ## Output:
 - PDF with "<name>.pdf" from "<name>.html"
+
+## Notes:
+- There are several newer style features to CSS that may not be recognized by iText7 but these can be easily worked around. 
